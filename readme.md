@@ -1,13 +1,14 @@
-#IOT Lab 2022-2023 Projects
+# IOT Lab 2022-2023 Projects
 all projects
 
-###Group A
+### Group A
 
-###Group B
+### Group B
 
-###Group C
-######Title
+### Group C
+###### Title
 *Stylus Bot*
-######Description
+###### Description
 *A two axis mechanism to replicate on paper a given structure (**Drawing**, Writing). The input is provided to the machine via a software (Mobile App)*
-###Group D
+
+### Group D
