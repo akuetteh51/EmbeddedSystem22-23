@@ -4,6 +4,7 @@ all projects
 ### Group A
 
 ### Group B
+A modern `agricultural farming system` for farmers. Helps by automating majority of the farming activities like **irrigation**, **tamperature control** and more.
 
 ### Group C
 ###### Title
