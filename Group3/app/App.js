@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import Drawing from './src/Drawing';
+import constants from 'expo-constants';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>The stylus bot</Text>
+    <View style={[styles.container,{marginTop: constants.statusBarHeight}]}>
       <StatusBar style="auto" />
+      <Drawing/>
     </View>
   );
 }
@@ -13,8 +15,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor:'#fff'
   },
 });
